@@ -1,0 +1,57 @@
+/* Form Row Layout */
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px; /* Reduced margin for tighter layout */
+}
+
+.form-row label {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  width: auto; /* Let label width adjust based on content */
+  margin-right: 12px; /* Reduced space between label and input */
+}
+
+.animated-input {
+  width: 100%; /* Let input fill the available space */
+  padding: 10px; /* Padding adjusted to maintain balance */
+  font-size: 14px;
+  border-radius: 10px; /* Slightly rounded corners */
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.animated-input:hover {
+  background-color: #fffbea;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.animated-input:focus {
+  outline: none;
+  border-color: #ffa500;
+  background-color: #fffdf5;
+  box-shadow: 0 0 0 4px rgba(255, 165, 0, 0.2);
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #ffa500;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #ff8c00;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+

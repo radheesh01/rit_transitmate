@@ -1,0 +1,54 @@
+/* Buttons.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 3rem;
+}
+
+.button-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.jump-button {
+  background-color: #4f6ddf;
+  color: white;
+  border: none;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.jump-button:hover {
+  transform: translateY(-8px) scale(1.05);
+  border-radius: 40px;
+  background-color: #3d57bd;
+}
+
+.icon {
+  font-size: 1.25rem;
+}

@@ -1,0 +1,71 @@
+.container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .role-button {
+    background-color: #f9b120;
+    padding: 30px 20px;
+    border-radius: 20px;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .role-button:hover {
+    background-color: #ffcd38;
+    transform: translateY(-10px) scale(1.05);
+  }
+  
+  .role-button .icon {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .role-button p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+  }
+  
+  .clicked {
+    animation: pop 0.4s ease forwards;
+  }
+  
+  @keyframes pop {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

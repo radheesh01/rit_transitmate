@@ -1,0 +1,36 @@
+.container {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  p {
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  
+  .share-button {
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(45deg, #ffeb3b, #ffc107);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.5s ease;
+  }
+  
+  .share-button:hover {
+    background: linear-gradient(45deg, #f44336, #e91e63);
+    color: white;
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
